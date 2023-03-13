@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="]fD6FSl3/#=XuF0r7Jjf" x="242" y="-42"><statement name="HANDLER"><block type="controls_if" id="kWDfrfU-%BFO@wNA)A|i"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Qe8.p!!Z#T3p85vij?DZ"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="wMGi!f4b3IT!}eDV5x91"></block></value><value name="B"><shadow type="math_number" id="*GMs9M`wa-$GY/%8.r5!"><field name="NUM">25</field></shadow></value></block></value><statement name="DO0"><block type="device_set_brightness" id="!v6f-?I-TcPQ#zR7m?Oz"><value name="value"><shadow type="math_number_minmax" id="VdCo.c{f(^]KZoe%2D{|"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="device_show_leds" id="g0{VpGg?.bT1qq|i8lRc"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></statement><statement name="ELSE"><block type="device_clear_display" id="I|A$TL+AUB@b1w:t]V4Q"></block></statement></block></statement></block><block type="pxt-on-start" id="eXz2bbmf!fA?MUvsu`yK" x="0" y="0"><statement name="HANDLER"><block type="device_clear_display" id="3bNHRUewS%Ry%M0x9#6X"></block></statement></block></xml>
